@@ -1,5 +1,5 @@
 #!/bin/bash
-AWS_ACC_ID=137440810107
+AWS_ACC_ID=XXXXXXXXXXXXXXXXXXXXX
 CLUSTER_NAME=beta
 
 # Create Production Cluster
