@@ -18,11 +18,6 @@ To be able to smoothly perform this workshop make sure your machine contains req
 
 [https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
-# METADATA:
-
-## Production Cluster: asda,asd,asd,a,sda,ds,asd
-## Staging Cluster: asdaa,sd,ads,ad,
-
 # Steps:
 
 
@@ -75,13 +70,13 @@ To be able to smoothly perform this workshop make sure your machine contains req
 
 `count by(instance)(node_cpu_seconds_total)`
 
-## Step 6: Create Prometheus*(staging cluster)*
+## Step 6: Create Prometheus *(staging cluster)*
 
 **OUTPUT:**
 
 ![empty cluster](./assets/6.png)
 
-## Step 7: Create Grafana*(staging cluster)*
+## Step 7: Create Grafana *(staging cluster)*
 
 **OUTPUT:**
 
