@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: monitoring
+  name: objstore
+stringData:
+  objstore.yml: |-
+    type: S3
+    config:
+      bucket: test
+      endpoint: "acb03ff4df07448f693820f6a8f9419c-1153660321.ap-south-1.elb.amazonaws.com:9000"
+      insecure: true
+      access_key: "0fCgcLXZ3vU1zzaH"
+      secret_key: "Zdm7MyOMfD9M0ZReJuRFNTmAGseDsHF1"
+
+
+#endpoint must be without http://
